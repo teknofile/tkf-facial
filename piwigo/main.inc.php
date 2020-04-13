@@ -23,7 +23,7 @@ Author URI: https://blog.teknofile.space
  global $prefixeTable;
 
  define('TKF_FACIAL_ID',        basename(dirname(__FILE__)));
- define('TKF_FACIAL_PATH',      PHPWG_PLUGINS_APTH . basename(dirname(__FILE__)) . '/');
+ define('TKF_FACIAL_PATH',      PHPWG_PLUGINS_PATH . basename(dirname(__FILE__)) . '/');
 
  // Hook on to an event to show the administration page.
  add_event_handler('get_admin_plugin_menu_links', 'facial_admin_menu');
