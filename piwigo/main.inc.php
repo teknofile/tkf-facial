@@ -37,6 +37,6 @@ Author URI: https://blog.teknofile.space
          )
     );
 
-    return $menu
+    return $menu;
  }
  ?>
